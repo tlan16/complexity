@@ -1,4 +1,3 @@
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { lazily } from "react-lazily";
 
 import { Toaster } from "@/components/Toaster";
@@ -35,7 +34,7 @@ export default function Misc() {
         }}
       />
 
-      <ReactQueryDevtools />
+      {/* <ReactQueryDevtools /> */}
     </>
   );
 }

@@ -2,7 +2,6 @@ import "@/assets/index.css";
 import "@/assets/extension.css";
 
 import { QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { lazily } from "react-lazily";
@@ -47,7 +46,6 @@ const { CdnRemoteResourcesInvalidator } = lazily(
           <CdnRemoteResourcesInvalidator />
         </Suspense>
       )}
-      <ReactQueryDevtools />
     </QueryClientProvider>,
   );
 })();
