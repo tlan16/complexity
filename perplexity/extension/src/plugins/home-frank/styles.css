@@ -1,0 +1,9 @@
+.mb-lg.md\:absolute.text-center {
+  &:not([frank]) {
+    display: none;
+  }
+
+  > *:not([home-frank-content]) {
+    display: none;
+  }
+}
